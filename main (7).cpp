@@ -11,6 +11,8 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 using namespace std;
 
+int intentos = 6;
+
 
 int number_letters() {
     int l;
@@ -59,17 +61,19 @@ int main(){
         int j=1;
         
 
-    for(int i=0;i<l;i++){
+    for(int i=0;i<intentos;i++){
         if((a[i]==c)){
             p[i]=c;
         }
     }
-    for(int t=0;t<l;t++)
+    for(int t=0;t<intentos;t++)
       cout<<p[t]<<'\t';
     j=j+i;
     cout<<"Intento numero: "<<j<<endl;
     
     }
+
+  
 
     return 0;
 }
