@@ -55,7 +55,7 @@ int main(){
     for(int i=0;i<l;i++){
         p.push_back('_');
     }
-    for(int i=0;i<l;i++) {
+    for(int i=0;i<intentos;i++) {
         char c;
         cin>>c;
         int j=1;
